@@ -102,6 +102,8 @@ const Playlist = () => {
         });
     }, [sortValue, tracksWithAudioFeatures]);
 
+    console.log(playlist)
+
     return (
         <>
             {playlist ? (
