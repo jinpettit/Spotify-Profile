@@ -13,7 +13,7 @@ const Playlist = () => {
     const [tracks, setTracks] = useState(null);
     const [audioFeatures, setAudioFeatures] = useState(null);
     const [sortValue, setSortValue] = useState('');
-    const sortOptions = ['danceability', 'tempo', 'energy', "valence"];
+    const sortOptions = ['danceability', 'tempo', 'energy', 'valence', 'loudness'];
 
     useEffect(() => {
         const fetchData = async () => {
