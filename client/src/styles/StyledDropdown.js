@@ -25,7 +25,6 @@ const StyledDropdown = styled.div`
   select {
     -webkit-appearance: none;
     appearance: none;
-    background-color: var(--dark-grey);
     color: white;
     border: 0;
     border-radius: var(--border-radius-subtle);
